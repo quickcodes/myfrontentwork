@@ -1,0 +1,49 @@
+main  git init main
+
+ branch1  git checkout -b branch1
+
+
+add -- to check file which you add
+
+commit --  latest snapshot 
+
+
+clone --- creating a local copy no connection to original
+
+fork --  to suggest problems , acts as a bridge  b/w original and presonal copy
+
+merg  --  ///  no effect to main code
+
+rebase --- similar to merg     :  go to main  tree point and compare to feature 
+rebase hava same no. of commit and clone have one more , 
+
+log : 
+ **********************************
+git config --global  user.name manshusaini
+git config --global  user.email manshusaini.ms@gmail.com
+************************************
+
+ git clone https://github.com/manshusaini/YOUR-FIRST-PULL-REQUEST.git
+
+
+change directory to yourpuulrequst downloaded file
+
+now for status : git status
+after profile and USERNAME.TXT
+git add .
+
+to save 
+git commit -m "Added USERNAME.txt"
+
+git push origin master
+
+git remote show origin
+
+
+git remote add upstream https://github.com/sagewhocodes/YOUR-FIRST-PULL-REQUEST.git
+
+git fetch --all
+
+
+
+ 
